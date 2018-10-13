@@ -54,6 +54,6 @@ has fulfilled the passing threshold of solving the problem: obtain an average sc
 
 ## Ideas for Future Work
 
-- Using Prioritized Experience Replay
+- Using Prioritized Experience Replay, so that valuable experience can be re-used better.
 - Using raw pixels input
-- TD(X)
+- TD(X): currently TD-1 is applied, how about using more sampled steps? (the other extreme is MC method) .

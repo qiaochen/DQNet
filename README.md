@@ -4,14 +4,10 @@
 ---
 For this project, a DQN agent is trained to navigate (and collect bananas!) in a large, square world.
 
-
-
-
-
 ![img](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
 
 
-
+The project works on the [pytorch DQN tutorial](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 
 
 ### Reward
