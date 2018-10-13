@@ -64,6 +64,7 @@ The project folder structure now looks like this (Program generated .png and mod
 Project Root
      |-install_requirements (Folder)
      |-README.md
+     |-report.md
      |-agent.py
      |-models.py
      |-train.py
