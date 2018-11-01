@@ -8,7 +8,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 from models import DDQNModel
 
-
+torch.manual_seed(999)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
@@ -130,7 +130,7 @@ class DQAgent:
         """
         Save state_dict of the target Q
         """
-        torch.save({"state_dict":self.target_q.state_dict}, path)
+        torch.save({"state_dict":self.working_q.state_dict}, path)
         
     def load(self, path):
         """
